@@ -1,5 +1,4 @@
 import React from 'react';
-import Inputcomponent from './view/input';
 
 import {
   SafeAreaView,
@@ -23,14 +22,14 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
+const Siginout = () => {
   return (
     <SafeAreaView>
       <View>
         <View style={styles.logo}>
           <Image
             style={{width: 160, height: 160}}
-            source={require('./accset/img/z3681068714710_a4ea01c851d38352e46f609315e51bc8.jpg')}
+            source={require('../accset/img/z3681068714710_a4ea01c851d38352e46f609315e51bc8.jpg')}
           />
           <View>
             <Text style={{fontSize: 20}}>hypetech.com</Text>
@@ -100,4 +99,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Siginout;

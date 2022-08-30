@@ -1,5 +1,4 @@
 import React from 'react';
-import Inputcomponent from './view/input';
 
 import {
   SafeAreaView,
@@ -23,7 +22,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
+const Sigin = () => {
   return (
     <SafeAreaView>
       <View>
@@ -98,4 +97,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Sigin;
